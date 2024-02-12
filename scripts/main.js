@@ -116,4 +116,3 @@ function noClick() {
   noButton.textContent = noButtonMessage;
   yesButton.style.textAlign = `center`;
 }
-
