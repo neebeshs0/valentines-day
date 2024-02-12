@@ -116,7 +116,3 @@ function noClick() {
   yesButton.style.textAlign = `center`;
 }
 
-function yesClick() {
-  window.location.href = "pages/yes-page.html";
-  window.location.replace("pages/yes-page.html");
-}
