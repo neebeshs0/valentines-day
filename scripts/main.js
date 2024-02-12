@@ -117,6 +117,9 @@ function noClick() {
   yesButton.style.textAlign = `center`;
 }
 
+<<<<<<< HEAD
 function yesClick() {
   window.location.href = "https://neebeshs0.github.io/yes/";
 }
+=======
+>>>>>>> 9635009080beebb606d57467bd993a4322f86b80
