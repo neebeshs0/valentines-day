@@ -107,7 +107,7 @@ function noClick() {
       yesButton.textContent =
         "Are you sure about that?              Say yes or else!";
       yesButton.style.backgroundImage =
-        "url('https://staticg.sportskeeda.com/editor/2023/12/a5ba4-17027164321160-1920.jpg')";
+        "url(https://staticg.sportskeeda.com/editor/2023/12/a5ba4-17027164321160-1920.jpg)";
       yesButton.style.backgroundSize = "cover";
       yesButton.style.backgroundRepeat = "no-repeat";
       yesButton.style.backgroundPosition = "center";
