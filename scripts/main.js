@@ -117,6 +117,6 @@ function noClick() {
 }
 
 function yesClick() {
-  window.location.href = "../pages/yes-page.html";
-  window.location.replace("../pages/yes-page.html");
+  window.location.href = "pages/yes-page.html";
+  window.location.replace("pages/yes-page.html");
 }
