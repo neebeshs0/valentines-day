@@ -1,0 +1,54 @@
+:root {
+  --base: #191724;
+  --love: #eb6f92;
+  --loveDark: #b4637a;
+  --iris: #c4a7e7;
+}
+
+body {
+  height: 100dvh;
+  margin: 0;
+  padding: 0;
+  background-color: #ff758f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#valentines-card {
+  background-color: #ffccd5;
+  border: 10px solid white;
+  border-radius: 8px;
+  padding: 24px;
+  display: flex;
+  max-width: 700px;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+  color: #800f2f;
+  font-family: "Pacifico", cursive;
+}
+
+button {
+  text-align: center;
+  padding: 24px;
+  font-size: 16px;
+  font-family: "Pacifico", cursive;
+  border-radius: 8px;
+  margin: 6px;
+  color: var(--base);
+}
+
+#yes-button {
+  background-color: #9ccfd8;
+}
+
+#no-button {
+  background-color: var(--love);
+}
+
+button:hover {
+  border-color: var(--loveDark);
+}
