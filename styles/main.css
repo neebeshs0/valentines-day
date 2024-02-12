@@ -31,6 +31,11 @@ h1 {
   font-family: "Pacifico", cursive;
 }
 
+a {
+  text-decoration: none;
+  color: var(--base);
+}
+
 button {
   text-align: center;
   padding: 24px;
