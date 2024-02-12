@@ -106,7 +106,8 @@ function noClick() {
       yesButton.style.color = "red";
       yesButton.textContent =
         "Are you sure about that?              Say yes or else!";
-      yesButton.style.backgroundImage = "url(../images/wingman.webp)";
+      yesButton.style.backgroundImage =
+        "url(https://staticg.sportskeeda.com/editor/2023/12/a5ba4-17027164321160-1920.jpg)";
       yesButton.style.backgroundSize = "cover";
       yesButton.style.backgroundRepeat = "no-repeat";
       yesButton.style.backgroundPosition = "center";
@@ -117,6 +118,5 @@ function noClick() {
 }
 
 function yesClick() {
-  window.location.href = "pages/yes-page.html";
-  window.location.replace("pages/yes-page.html");
+  window.location.href = "https://neebeshs0.github.io/yes/";
 }
